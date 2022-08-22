@@ -1,0 +1,55 @@
+/* style.css */
+.header {
+    height: 20em;
+    background-image: url("assets/img/header.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.header h1 {
+    margin: 0px;
+}
+
+.header h2 {
+    right: 80%;
+    top: 80%;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+        Geneva, Verdana, sans-serif;
+}
+
+.header {
+    color: yellow;
+    height: 10em;
+    padding: 5em;
+    font-size: 2em;
+    background-image: url("assets/img/header.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.products {
+    width: 80%;
+    margin: auto;
+}
+
+.products td {
+    width: 50%;
+    padding: 2em;
+}
+
+.products img {
+    width: 100%;
+    border: solid 1px #ddd;
+}
+
+.footer {
+    height: 3em;
+    line-height: 3em;
+    background-color: rgb(20, 96, 49);
+    color: white;
+    text-align: center;
+    font-weight: 900;
+}
